@@ -25,5 +25,5 @@ $ pytest
     - Question: Does P[A wins] = P[B wins]? Is this a fair game?
 
 2. **Stirling's Formula**
-    - <img src="https://render.githubusercontent.com/render/math?math=n! \sim \sqrt{2\pi}n^{n%2B\frac{1}{2}}e^{-n}">
+    - <img src="https://render.githubusercontent.com/render/math?math=\large n! \sim \sqrt{2\pi}n^{n%2B\frac{1}{2}}e^{-n}" style="background-color: white"> where ``` ~ ``` indicates the ratio of the two sides tends to unity as n approaches to infinity. 
     - Approximation for factorials. A good approximation as n gets large, the proportional error goes to zero. 
