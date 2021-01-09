@@ -11,6 +11,7 @@ Run ```pip3 install -r requirements.txt``` to install following packages:
 - pytest (Python test suite)
 - numpy
 - matplotlib
+- scipy
 
 ### Pytest Test Suite
 ```bash
