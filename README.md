@@ -1,5 +1,5 @@
 # Mathematics
-My mathematics repo for various experiments.
+Mathematics repo for various experiments.
 
 ## Getting Started
 ### Prerequisites
