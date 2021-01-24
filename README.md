@@ -1,5 +1,5 @@
-# Mathematics
-Mathematics repo for various experiments.
+# Zabalang Maths
+Zabalang maths and algo repo.
 
 ## Getting Started
 ### Prerequisites
