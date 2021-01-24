@@ -4,6 +4,7 @@ Zabalang maths and algo repo.
 ## Getting Started
 ### Prerequisites
 - Python 3.6 or later
+- C++ 
 
 ### Installation
 Run ```pip3 install -r requirements.txt``` to install following packages:
@@ -35,3 +36,7 @@ $ pytest
     - A memoryless pdf is an exponential pdf (inter arrival time is exponential)
     - Queueing theory to model random process: arrival of customers in a store, occurance of earthquakes, telephone call attempts.
     - Read more: http://www.wirelesscommunication.nl/reference/appendix/poisson.htm 
+
+4. **Dijkstra's Algorithm**
+    - Find the shortest distance of directed/ undirected graph with positive weight.
+    - Pseudocode: http://www.gitta.info/Accessibiliti/en/html/Dijkstra_learningObject1.html 
