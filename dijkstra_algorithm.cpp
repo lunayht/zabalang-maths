@@ -46,15 +46,6 @@ int main() {
     // Dijkstra's Algorithm
     int distance[number_of_nodes];
     bool visited[number_of_nodes];
-    string dictionary[number_of_nodes];
-    dictionary[0] = "a";
-    dictionary[1] = "b";
-    dictionary[2] = "c";
-    dictionary[3] = "d";
-    dictionary[4] = "e";
-    dictionary[5] = "f";
-    dictionary[6] = "g";
-    dictionary[7] = "h";
 
     for (int i = 0; i < number_of_nodes; i++) {
         distance[i] = INF;
@@ -65,7 +56,7 @@ int main() {
     for (int node = 1; node < number_of_nodes; node++) {
         int u = find_min_distance(distance, visited, number_of_nodes);
         visited[u] = true;
-        shortest_path.append(dictionary[u]);
+        shortest_path.append(to_string(u));
 
         if (node == destination) {
             break;
@@ -78,7 +69,6 @@ int main() {
             }
 
             if (!visited[v] && cost_matrix[u][v] && distance[u]+cost_matrix[u][v]<distance[v]) {
-                int temp = distance[u] + cost_matrix[u][v];
                 distance[v] = distance[u] + cost_matrix[u][v];
             }
         }
