@@ -4,7 +4,7 @@ Zabalang maths and algo repo.
 ## Getting Started
 ### Prerequisites
 - Python 3.6 or later
-- C++ 
+- C++17
 
 ### Installation
 Run ```pip3 install -r requirements.txt``` to install following packages:
