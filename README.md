@@ -40,3 +40,7 @@ $ pytest
 4. **Dijkstra's Algorithm**
     - Find the shortest distance of directed/ undirected graph with positive weight.
     - Pseudocode: http://www.gitta.info/Accessibiliti/en/html/Dijkstra_learningObject1.html 
+
+5. **Euclidean Algorithm**
+    - For computing Greatest Common Divisor (GCD) and can be used to compute Least Common Multiple (LCM)
+    - Read more: https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/the-euclidean-algorithm 
