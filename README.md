@@ -44,3 +44,6 @@ $ pytest
 5. **Euclidean Algorithm**
     - For computing Greatest Common Divisor (GCD) and  Least Common Multiple (LCM)
     - Read more: https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/the-euclidean-algorithm 
+
+6. **Prime Number Calculator**
+    - Future work: without recursive/ faster implementation
